@@ -7,13 +7,13 @@ This File Integrity Monitor is designed to be executed locally in a Python envir
 GitHub only displays the source code and does not execute Python scripts.
 To observe the monitoring functionality:
 
-Clone the repository
+1. Clone the repository
 
-Run the Python script locally
+2. Run the Python script locally
 
-Modify a monitored file
+3. Modify a monitored file
 
-Re-run the script to detect hash changes
+4. Re-run the script to detect hash changes
 
 The program compares stored cryptographic hash values (SHA-256) with newly calculated hashes.
 If the values differ, the file is flagged as modified.
